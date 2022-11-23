@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB08FD50292F476400CD5506 /* DataNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB08FD4F292F476400CD5506 /* DataNetwork.swift */; };
+		AB08FD52292F4B3400CD5506 /* RickMorti.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB08FD51292F4B3400CD5506 /* RickMorti.swift */; };
+		AB08FD54292F4CC300CD5506 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB08FD53292F4CC300CD5506 /* ListViewController.swift */; };
 		ABB96F82292E985500616790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB96F81292E985500616790 /* AppDelegate.swift */; };
 		ABB96F84292E985500616790 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB96F83292E985500616790 /* SceneDelegate.swift */; };
-		ABB96F86292E985500616790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB96F85292E985500616790 /* ViewController.swift */; };
 		ABB96F89292E985500616790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB96F87292E985500616790 /* Main.storyboard */; };
 		ABB96F8B292E985700616790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB96F8A292E985700616790 /* Assets.xcassets */; };
 		ABB96F8E292E985700616790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB96F8C292E985700616790 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB08FD4F292F476400CD5506 /* DataNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNetwork.swift; sourceTree = "<group>"; };
+		AB08FD51292F4B3400CD5506 /* RickMorti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickMorti.swift; sourceTree = "<group>"; };
+		AB08FD53292F4CC300CD5506 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		ABB96F7E292E985500616790 /* appNetworkServis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appNetworkServis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB96F81292E985500616790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB96F83292E985500616790 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABB96F85292E985500616790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABB96F88292E985500616790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB96F8A292E985700616790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB96F8D292E985700616790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB08FD4B292F468000CD5506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABB96F87292E985500616790 /* Main.storyboard */,
+				ABB96F8C292E985700616790 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB08FD4C292F468F00CD5506 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABB96F81292E985500616790 /* AppDelegate.swift */,
+				ABB96F83292E985500616790 /* SceneDelegate.swift */,
+				AB08FD53292F4CC300CD5506 /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB08FD4D292F46A400CD5506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB08FD4F292F476400CD5506 /* DataNetwork.swift */,
+				AB08FD51292F4B3400CD5506 /* RickMorti.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB08FD4E292F46DA00CD5506 /* Suppertig filles */ = {
+			isa = PBXGroup;
+			children = (
+				ABB96F8A292E985700616790 /* Assets.xcassets */,
+				ABB96F8F292E985700616790 /* Info.plist */,
+			);
+			path = "Suppertig filles";
+			sourceTree = "<group>";
+		};
 		ABB96F75292E985500616790 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,10 @@
 		ABB96F80292E985500616790 /* appNetworkServis */ = {
 			isa = PBXGroup;
 			children = (
-				ABB96F81292E985500616790 /* AppDelegate.swift */,
-				ABB96F83292E985500616790 /* SceneDelegate.swift */,
-				ABB96F85292E985500616790 /* ViewController.swift */,
-				ABB96F87292E985500616790 /* Main.storyboard */,
-				ABB96F8A292E985700616790 /* Assets.xcassets */,
-				ABB96F8C292E985700616790 /* LaunchScreen.storyboard */,
-				ABB96F8F292E985700616790 /* Info.plist */,
+				AB08FD4D292F46A400CD5506 /* Models */,
+				AB08FD4C292F468F00CD5506 /* Controllers */,
+				AB08FD4B292F468000CD5506 /* View */,
+				AB08FD4E292F46DA00CD5506 /* Suppertig filles */,
 			);
 			path = appNetworkServis;
 			sourceTree = "<group>";
@@ -138,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB96F86292E985500616790 /* ViewController.swift in Sources */,
+				AB08FD50292F476400CD5506 /* DataNetwork.swift in Sources */,
+				AB08FD52292F4B3400CD5506 /* RickMorti.swift in Sources */,
 				ABB96F82292E985500616790 /* AppDelegate.swift in Sources */,
+				AB08FD54292F4CC300CD5506 /* ListViewController.swift in Sources */,
 				ABB96F84292E985500616790 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,9 +329,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K55575G49V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = appNetworkServis/Info.plist;
+				INFOPLIST_FILE = "appNetworkServis/Suppertig filles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -302,9 +342,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.appNetworkServis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,9 +360,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K55575G49V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = appNetworkServis/Info.plist;
+				INFOPLIST_FILE = "appNetworkServis/Suppertig filles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -330,9 +373,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.kaznacheev.appNetworkServis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
